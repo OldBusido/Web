@@ -1,0 +1,114 @@
+*{
+
+}
+body{
+	background-color:rgb(18,188,241) ;
+}
+form{
+	padding: 10px;
+	margin: 0 auto;
+	width: 600px;
+	height: 300px;
+	border: solid 2px black;
+	background-color: white;
+}
+.block1,.block2,.block3,.submit{
+	border: solid 2px rgb(88, 149, 246);
+}
+.block1{	
+	width: 260px;
+	display: inline-block;
+	padding: 7px;
+	padding-left: 3px;
+	margin: 10px;
+	border-radius: 5px 5px;
+	border-top-width: 15px ;
+	text-align: left;
+}
+
+:focus::-webkit-input-placeholder {text-indent:-5px; transition:all 1s ease;opacity:0;}
+
+
+.block2{
+	width: 560px;
+	padding: 7px;
+	padding-left: 3px;
+	margin: 10px;
+	border-radius: 10px 10px 5px 5px;
+	text-align: left;
+}
+.input1{
+	border:none;
+	outline:none;
+	width: 260px;
+	padding-left: 3px;
+}
+.input2{
+	border:none;
+	outline:none;
+	width: 560px;
+	padding-left: 3px;
+}
+.submit{
+	color: white;
+	margin: auto;
+	cursor: pointer;
+	text-align: center;
+	background-color: rgb(88, 149, 246);
+	border-color: rgb(88, 149, 246);
+	border-radius: 2px 2px;
+	padding: 4px;
+	bottom: 200px;
+}
+.input1,.input2,.submit{
+	font-family: Trebuchet MS;
+	text-align:center;
+}
+.button{
+	text-align: center;
+	position: relative;
+	bottom: -90px;
+}
+
+
+
+
+
+
+
+.P{
+}
+	/*-moz-animation: quantumWizIconFocusPulse .7s infinite alternate;
+    animation: quantumWizIconFocusPulse .7s infinite alternate;
+    height: 50%;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    visibility: visible;
+	 background-color: rgba(66, 133, 244, 0.149);
+}
+
+@keyframes quantumWizIconFocusPulse {
+    0% {
+        -moz-transform: translate(-50%, -50%) scale(1.5);
+        transform: translate(-50%, -50%) scale(1.5);
+        opacity: 0
+    }
+    to {
+        -moz-transform: translate(-50%, -50%) scale(2);
+        transform: translate(-50%, -50%) scale(2);
+        opacity: 1
+    }
+}
+@keyframes quantumWizIconFocusPulse {
+    0% {
+        -moz-transform: translate(-50%, -50%) scale(1.5);
+        transform: translate(-50%, -50%) scale(1.5);
+        opacity: 0
+    }
+    to {
+        -moz-transform: translate(-50%, -50%) scale(2);
+        transform: translate(-50%, -50%) scale(2);
+        opacity: 1
+    }
+	\*
