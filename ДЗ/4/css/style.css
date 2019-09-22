@@ -1,43 +1,79 @@
 .MobileFrontPanel{
 	margin: auto;
-	border: 6px outset black;
 	width: 450px;
 	height: 900px;
+	background-color: black;
+	
+	border: 4px outset rgb(70,70,70);
 	border-radius: 35px;
+	box-shadow: 0px 0px 0px 6px rgba(30,30,30, 0.25), inset 1px 1px 3px 2px rgb(169,169,169, 0.14);	
 }
 .MobileFrontPanel2{
-	margin: auto;
-	margin-top: -45px;
-	border: 3px solid black;
 	width: 430px;
 	height: 875px;
+	margin: auto;
+	margin-top: -45px;
+	
+	background-image: url(https://media.idownloadblog.com/wp-content/uploads/2017/11/iOS-stock-1-for-iPhone-X.png);
+	background-size: 100%,100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	border: outset 2px black;
 	border-radius: 25px;
+	box-shadow: inset 0 0 0 1px rgb(255,255,255, 0.04); 
 }
 .Visor{
-	margin: auto;
-	border: 10px solid black;
 	width: 270px;
 	height: 35px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 18%;
+	margin-right:18%;
+	
+	border: 5px solid black;
 	border-radius: 0 0 30px 30px;
 	background-color: black;
 }
 .speaker{
-	margin:auto;
-	margin-left: 90px;
 	height: 13px;
 	width: 90px;
-	border-radius: 10px;
-	box-shadow: inset -10px -10px 100px #000, 10px 10px 20px black, inset 0px 0px 10px black;
+	margin:auto;
 	display: inline-block;
+	margin-left: 90px;
+	
 	background-color: white;
+	border-radius: 10px;
+	box-shadow: inset -10px -10px 100px #000, 10px 10px 20px black, inset 0px 0px 10px black;	
 }
 .camera{
-
 	margin-left: 10px; 
 	height: 23px;
 	width: 23px;
 	border-radius: 50%;
 	box-shadow: inset -10px -10px 100px #000, 10px 10px 20px black, inset 0px 0px 10px black;
 	display: inline-block;
+	background-color: white;
+}
+.TableIconApp{
+	height: 95%;
+	margin-top:47px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+table{
+	width: 100%;
+	height: 98%;	
+	color: white;
+}	
+td{
+	font-family: impact;
+	padding: 5px;
+	background-size: 65px, 65px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+body{
 	background-color: white;
 }
